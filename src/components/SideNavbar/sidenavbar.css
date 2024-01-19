@@ -1,0 +1,33 @@
+.navbar__container {
+  display: flex;
+  align-items: center;
+  background-color: #2f2d52;
+  height: 50px;
+  padding: 10px;
+  justify-content: space-between;
+  color: #ddddf7;
+}
+.navbar__container-logo {
+  font-weight: 700;
+}
+.navbar__container-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.navbar__container-user img {
+  background-color: #ddddf7;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.navbar__container-user button {
+  border: none;
+  padding: 5px;
+  font-size: 10px;
+  line-height: 14px;
+  background-color: #5d5b8d;
+  color: #ddddf7;
+  cursor: pointer;
+}
